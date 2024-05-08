@@ -1,0 +1,21 @@
+{
+  "android": {
+    "platformName": "Android",
+    "platformVersion": "13.0",
+    "udid": "auto",
+    "deviceName": "Prakash Android",
+    "noReset" : false,
+    "appPackage": "com.fivemobile.thescore",
+    "appActivity": "com.fivemobile.thescore.ui.MainActivity",
+    "automationName": "UiAutomator2"
+
+  },
+  "ios": {
+    "platformName": "iOS",
+    "platformVersion": "14.0",
+    "UDID": "xxxxx",
+    "deviceName": "iPhone",
+    "bundleId": "xxxxxx",
+    "automationName": "XCUITest"
+  }
+}
