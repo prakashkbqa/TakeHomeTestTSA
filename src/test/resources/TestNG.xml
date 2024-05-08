@@ -5,7 +5,7 @@
     <test name="Prakash Android" enabled="true">
         <classes>
 
-<!--            <class name="Test.TheScoreTask"/>-->
+            <class name="Test.TheScoreTask"/>
 
         </classes>
     </test>
