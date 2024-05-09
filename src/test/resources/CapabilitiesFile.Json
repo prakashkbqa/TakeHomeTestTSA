@@ -6,7 +6,7 @@
     "deviceName": "Prakash Android",
     "automationName": "UiAutomator2",
     "appWaitForLaunch": "true",
-    "app": "/Users/bhanuprakashk/IdeaProjects/Test1/src/test/resources/theScore_24.8.0.apk"
+    "app": "/Users/prakashk/IdeaProjects/Test1/src/test/resources/theScore_24.8.0.apk"
 
   },
   "ios": {
