@@ -33,7 +33,25 @@ Step 6: Set up Android virtual device and launch the (Emulator Google pixel with
 
 Step 7: Update the Android emulator's “deviceName” and “app” capabilities in the CapabilitiesFile.json file as required.
 
-Step 8: Configure TestNG in IDE and set the suite with the path of the TestNG.xml located under the src/test/resources folder  <class name="Test.TheScoreTask"/>
+Step 8: Configure TestNG in IDE and set the suite with the path of the TestNG.xml located under the src/test/resources folder  
+
+<class name="Test.TheScoreTask"/>
+
+
+Testing Approach Description for the Assigned Task:
+
+I have developed a testing framework using TestNG, the Page Object Model (POM), and Java programming language, designed to handle various scenarios and end-to-end flows. Execution of the test suite is managed through the testNG.xml file, providing flexibility for multiple script runs or package execution by adding package tags. My script primarily focuses on functionality testing.
+
+Testing Scenario: As a first-time user, download the Score app from the Google Play Store and launch it without creating an account. Proceed to select my favorite league and team by choosing different options. Finally, verify that user can return to the previous page using the back navigation feature.
+
+I focused on the following script coverage points:
+
+	•	Validating page titles after selecting favorite league and team, and verifying the respective page titles
+	•	Click actions on buttons
+	•	Navigation through main tabs and sub-tabs, ensuring the correct display of selected tab data
+	•	Verification of back navigation, ensuring the correct return to the previous page.
+
+Note: The test run report is attached in this project repository.
 
 
  
