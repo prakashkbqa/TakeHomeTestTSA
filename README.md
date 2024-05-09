@@ -33,6 +33,8 @@ Step 6: Set up Android virtual device and launch the (Emulator Google pixel with
 
 Step 7: Update the Android emulator's “deviceName” and “app” capabilities in the CapabilitiesFile.json file as required.
 
+Step 8: Initiate the appium server 
+
 Step 8: Configure TestNG in IDE and set the suite with the path of the TestNG.xml located under the src/test/resources folder  
 
 <class name="Test.TheScoreTask"/>
