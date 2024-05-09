@@ -41,7 +41,8 @@ public class FetchJsonObject {
         capabilities.setCapability("bundleID", getPlatformNode().path("bundleID").asText());
         capabilities.setCapability("automationName", getPlatformNode().path("automationName").asText());
         capabilities.setCapability("platformVersion", getPlatformNode().path("platformVersion").asText());
-        capabilities.setCapability("noReset", getPlatformNode().path("noReset").asText("false"));
+        capabilities.setCapability("app", getPlatformNode().path("app").asText());
+        capabilities.setCapability("appWaitForLaunch", getPlatformNode().path("appWaitForLaunch").asText("true"));
 
         return capabilities;
     }

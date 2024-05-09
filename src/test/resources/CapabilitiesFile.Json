@@ -4,10 +4,9 @@
     "platformVersion": "13.0",
     "udid": "auto",
     "deviceName": "Prakash Android",
-    "noReset" : false,
-    "appPackage": "com.fivemobile.thescore",
-    "appActivity": "com.fivemobile.thescore.ui.MainActivity",
-    "automationName": "UiAutomator2"
+    "automationName": "UiAutomator2",
+    "appWaitForLaunch": "true",
+    "app": "/Users/bhanuprakashk/IdeaProjects/Test1/src/test/resources/theScore_24.8.0.apk"
 
   },
   "ios": {
