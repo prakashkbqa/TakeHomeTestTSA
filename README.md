@@ -1,4 +1,4 @@
-Mobile Autoamtion Testing Task:
+Mobile Automation Testing Task:
 
 Take Home Test from Score Media and Gaming Inc.
 
